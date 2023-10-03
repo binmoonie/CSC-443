@@ -1,0 +1,187 @@
+td.a{
+    border: 1px solid black;
+    padding: 15px;
+    border-spacing: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+table.t1{
+    width:100%;
+    border-spacing: 30px;
+    border: 2px solid black;
+    background-color:rgb(236, 244, 251, 0.2);
+}
+
+table.t2{
+    width:100%;
+    border-spacing: 15px; 
+    border: 2px solid black;
+    padding-right:5px;
+    background-color:rgb(236, 244, 251, 0.2); 
+}
+td.navD{
+    border: 1px solid black;
+    padding: 15px;
+    background-color:rgb(236, 244, 251, 0.6);
+}
+img.ben{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height:auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+div.container{
+    position:relative;
+    width:100%;
+}
+
+td.container{
+    position:relative;
+    width:20%;
+}
+
+div.mid{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    transform: translate(-20%, -20%);
+    -ms-transform: translate(-20%, -20%)
+}
+
+div.mid{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+div.container:hover .ben{
+    opacity: 0.3;
+}
+
+div.container:hover .mid{
+    opacity: 1;
+}
+
+td.container:hover .ben{
+    opacity: 0.3;
+}
+
+td.container:hover .mid{
+    opacity: 1;
+}
+
+div.text{
+    background-color: #0b6617;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+div.text1{
+    background-color: #610d0d;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+td.bgi{
+    margin: 0px;
+    border: 1px solid black;
+    padding: 10px;
+    border-spacing: 10px;
+    vertical-align: top;
+    background-color:rgb(236, 244, 251, 0.2);
+}
+
+div.bgi2{
+    margin:0px;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 50px;
+}
+
+div.bgi3{
+    padding: 10px;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+td.rec{
+    margin: 0px;
+    border: 1px solid black;
+    padding: 10px;
+    border-spacing: 10px;
+    vertical-align: top;
+    background-color:rgb(236, 244, 251, 0.2);
+}
+
+div.rec1{
+    margin:0px;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: x-large;
+}
+
+div.rec2{
+    margin:0px;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+td.bottoms{
+    margin: 0px;
+    border: 1px solid black;
+    padding: 10px;
+    border-spacing: 10px;
+    vertical-align: top;
+    background-color:rgb(236, 244, 251, 0.2);
+    
+}
+
+div.bottoms1{
+    padding: 2px;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+td.music1{
+    font-size:30px;
+    font-family:monospace;
+}
+a.link1{
+    color:aliceblue;
+}
+nav a:hover{
+    font-size:24px;
+}
+
+img.cisco{
+    size:40%;
+    height: 50%;
+    width:50%;
+}
+
+img.hover .cisco{
+    -webkit-filter-: invert(1);
+}
+
+div.text2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+}
